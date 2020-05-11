@@ -1,0 +1,50 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "spacing": "Large",
+          "horizontalAlignment": "Left",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://siteasset.blob.core.windows.net/chatstickers/source.gif",
+                  "style": "Person"
+                }
+              ],
+              "spacing": "Large",
+              "horizontalAlignment": "Center",
+              "style": "default"
+            },
+            {
+              "type": "Column",
+              "width": 50,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Greetings Young Padawan!\n\nI am **Yoda**, a Grand Master of the Jedi Order. I am also the alter ego of this site. You can ask me things and I may answer.",
+                  "separator": true,
+                  "wrap": true,
+                  "size": "Medium"
+                }
+              ],
+              "spacing": "Large"
+            }
+          ]
+        }
+      ],
+      "horizontalAlignment": "Center",
+      "height": "stretch"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}

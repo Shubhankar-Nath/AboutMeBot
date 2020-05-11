@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="1.2.4" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.8.0" />
+    <PackageReference Include="Microsoft.Bot.Schema" Version="4.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YodaBot.Utility\YodaBot.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "Image",
+          "altText": "",
+          "url": "",
+          "spacing": "Large",
+          "horiztextontalAlignment": "Center",
+          "size": "Large",
+          "backgroundColor": ""
+        },
+        {
+          "type": "TextBlock",
+          "text": "",
+          "spacing": "None",
+          "horizontalAlignment": "Right",
+          "maxLines": 6,
+          "wrap": true
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
