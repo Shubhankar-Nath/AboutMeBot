@@ -1,11 +1,10 @@
-**
+
 
 # Welcome to YodaBot
 This is a Chatbot Project Developed using Microsoft Bot Framework v4.
 
-> *Full guide on making the bot coming soon.*
+For full guide refer : https://shubhankarnath.com/how-i-made-a-chatbot/
 
-**
 
 ## Installation
 1. Clone the project in your local machine.
