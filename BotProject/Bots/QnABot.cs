@@ -51,8 +51,8 @@ namespace Microsoft.BotBuilderSamples.Bots
                     Attachment attachmennt = null;
                     try
                     {
-                        var cardjson = File.ReadAllText(Path.Combine(new string[] { ".", @"wwwroot/WelcomeCard.json" }));
-                        attachmennt = CardMaker.getCardAttachment(cardjson);
+                        var cardjson = File.ReadAllText(Path.Combine(new string[] { ".", @"wwwroot/WelcomeCard.json" }));                        
+                        attachmennt =(new CardMaker(TelemetryClient)).getCardAttachment(cardjson);
                     }
                     catch(Exception e)
                     {

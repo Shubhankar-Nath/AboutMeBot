@@ -1,49 +1,58 @@
 {
   "type": "AdaptiveCard",
-  "version": "1.0",
+  "version": "1.2",
   "body": [
     {
-      "type": "Container",
-      "items": [
+      "type": "ColumnSet",
+      "spacing": "Large",
+      "columns": [
         {
-          "type": "ColumnSet",
-          "spacing": "Large",
-          "horizontalAlignment": "Left",
-          "columns": [
+          "type": "Column",
+          "width": "auto",
+          "items": [
             {
-              "type": "Column",
-              "width": "auto",
-              "items": [
-                {
-                  "type": "Image",
-                  "altText": "",
-                  "url": "https://siteasset.blob.core.windows.net/chatstickers/source.gif",
-                  "style": "Person"
-                }
-              ],
-              "spacing": "Large",
-              "horizontalAlignment": "Center",
-              "style": "default"
-            },
-            {
-              "type": "Column",
-              "width": 50,
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "text": "Greetings Young Padawan!\n\nI am **Yoda**, a Grand Master of the Jedi Order. I am also the alter ego of this site. You can ask me things and I may answer.",
-                  "separator": true,
-                  "wrap": true,
-                  "size": "Medium"
-                }
-              ],
-              "spacing": "Large"
+              "type": "Image",
+              "url": "https://siteasset.blob.core.windows.net/chatstickers/source.gif",
+              "style": "Person"
             }
-          ]
+          ],
+          "spacing": "Large",
+          "horizontalAlignment": "Center",
+          "style": "default"
+        },
+        {
+          "type": "Column",
+          "width": 50,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Greetings Young Padawan!\n\nI am **Yoda**, a Grand Master of the Jedi Order. I am also the alter ego of this site. You can ask me things and I may answer.",
+              "separator": true,
+              "wrap": true,
+              "size": "Medium"
+            }
+          ],
+          "spacing": "Large"
         }
-      ],
-      "horizontalAlignment": "Center",
-      "height": "stretch"
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "id": "GreetingActions",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Know the Site",
+          "id": "KnowSite",
+          "data": "Know the Site"
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Know the Author",
+          "id": "KnowAuthor",
+          "data": "Know the Author"
+        }
+      ]
     }
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
